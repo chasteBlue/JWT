@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 app.options('*', (req, res) => {
     const allowedOrigins = [
         'http://localhost:3002',
-        'https://jwt-front.vercel.app'
+        'https://jwt-front-one.vercel.app'
     ];
     const origin = req.headers.origin;
     if (allowedOrigins.includes(origin)) {
